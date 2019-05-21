@@ -1,6 +1,7 @@
 package com.zyb.test;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class MyTest {
@@ -17,8 +18,8 @@ public class MyTest {
 	
 	@Test
 	public void test003() {
+		Assert.assertEquals("1", "2","1 should equal 2");
 		System.out.println("test003");
-		Assert.assertEquals("1", "2","1和2不相等.");
 	}
 
 }
